@@ -27,4 +27,7 @@
 |people_fully_vaccinated_per_hundred|浮点型|每百人完全接种疫苗的人数。|
 |daily_vaccinations_per_million|浮点型|每百万人每天接种的疫苗。|
 
-### 
+### 初步研究：数据集数据完整性
+
+首先拿到一个新的数据集，我们要看它是否有完整的数据，还是有许多空值。在```code/EDA0.py```中我先把各个字段的完整性先用柱状图可视化了，结果图片放到了```output/Integrity.png```中，如图：![](../output/Integrity.png)
+
