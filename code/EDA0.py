@@ -19,4 +19,4 @@ plt.barh(x,integrity)
 for a,b,i in zip(x,integrity,range(len(x))):
     plt.text(b,a,"%s"%"%.2f"%integrity[i])
 plt.tight_layout()
-plt.savefig("output/Integrity.png")
+plt.savefig("output/EDA0.png")
